@@ -1,0 +1,18 @@
+.FAB {
+    aspect-ratio: 1;
+    border-radius: 999px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    bottom: 100px;
+    right: 32.5%;
+}
+
+@media (max-width: 480px) {
+    .FAB {
+        right: 5%;
+    }
+}

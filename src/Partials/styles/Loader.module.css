@@ -1,0 +1,30 @@
+.Container {
+    position: absolute;
+    top: 0px;left: 0px;right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Content {
+    width: 480px;
+}
+
+.Cover {
+    background-color: #ddd;
+    border-radius: 12px;
+}
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+}

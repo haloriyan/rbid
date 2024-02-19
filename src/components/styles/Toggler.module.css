@@ -1,0 +1,22 @@
+.Area {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 10px;
+    cursor: pointer;
+    height: 40px;
+}
+.Item.Active {
+    background-color: #fff;
+    border-radius: 12px;
+}

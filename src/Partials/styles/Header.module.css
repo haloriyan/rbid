@@ -1,0 +1,72 @@
+.Header {
+    position: fixed;
+    top: 0px;left: 0px;right: 0px;
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 40px;
+    background-color: #fff;
+    z-index: 3;
+}
+.Title {
+    font-size: 20px;
+    font-weight: 900;
+    color: #222;
+}
+.Grow {
+    display: flex;
+    flex-grow: 1;
+}
+
+.Selector {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.LinkArea {
+    background-color: #eee;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.LinkText {
+    display: flex;
+    flex-grow: 1;
+}
+
+.WeddingArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.WeddingItem {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .Header {
+        padding: 0px 20px;
+        gap: 10px;
+    }
+    .Title { font-size: 16px; }
+    .Selector {
+        padding: 10px;
+        font-size: 10px;
+    }
+}

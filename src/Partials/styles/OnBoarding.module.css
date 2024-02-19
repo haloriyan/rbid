@@ -1,0 +1,27 @@
+.Content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 40px;
+}
+.Left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.Title {
+    font-size: 32px;
+    font-weight: 900;
+    color: #222;
+}
+.Description {
+    margin-top: 20px;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.Image {
+    height: 360px;
+}
